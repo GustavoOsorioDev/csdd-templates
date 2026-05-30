@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+
+  <defs>
+    <style>
+      .go-name { font-family: system-ui, -apple-system, Helvetica Neue, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Fondo negro -->
+  <rect width="800" height="800" fill="#0f0f0f" rx="400"/>
+
+  <!-- Arco decorativo exterior -->
+  <circle cx="400" cy="400" r="360"
+    fill="none"
+    stroke="#1D9E75"
+    stroke-width="4"
+    stroke-dasharray="14 8"
+    opacity="0.7"/>
+
+  <!-- Arco interior sutil -->
+  <circle cx="400" cy="400" r="340"
+    fill="none"
+    stroke="#1D9E75"
+    stroke-width="1"
+    opacity="0.2"/>
+
+  <!-- Letra G — grande, dominante -->
+  <text
+    x="400"
+    y="420"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    class="go-name"
+    font-weight="700"
+    font-size="380"
+    fill="#1D9E75"
+    letter-spacing="-8">G</text>
+
+  <!-- Banda inferior — fondo para texto -->
+  <rect x="100" y="560" width="600" height="110" fill="#0f0f0f" opacity="0.95"/>
+
+  <!-- Línea separadora -->
+  <line x1="160" y1="568" x2="640" y2="568"
+    stroke="#1D9E75"
+    stroke-width="1"
+    opacity="0.4"/>
+
+  <!-- OSORIO -->
+  <text
+    x="400"
+    y="625"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    class="go-name"
+    font-weight="300"
+    font-size="88"
+    fill="#ffffff"
+    letter-spacing="22">OSORIO</text>
+
+  <!-- Línea separadora inferior -->
+  <line x1="160" y1="672" x2="640" y2="672"
+    stroke="#1D9E75"
+    stroke-width="1"
+    opacity="0.4"/>
+
+  <!-- DEV -->
+  <text
+    x="400"
+    y="710"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    class="go-name"
+    font-weight="400"
+    font-size="36"
+    fill="#1D9E75"
+    letter-spacing="18">DEV</text>
+
+</svg>
